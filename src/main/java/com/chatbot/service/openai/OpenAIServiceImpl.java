@@ -18,7 +18,6 @@ public class OpenAIServiceImpl implements IOpenAIService {
 	@Override
 	public Map<String, String> getPromt(String pregunta) {
 		log.info("INICIO EN OpenAIServiceImpl.getPromt().");
-
 		try {
 			return Map.of("completion", this.chatClient.prompt().user(pregunta).call().content());
 		} catch (Exception e) {
