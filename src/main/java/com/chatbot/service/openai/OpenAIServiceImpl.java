@@ -6,21 +6,25 @@ import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Service
+@Slf4j
 public class OpenAIServiceImpl implements IOpenAIService {
-	
-	@Autowired 
+
+	@Autowired
 	ChatClient chatClient;
-	 
 
 	@Override
 	public Map<String, String> getPromt(String pregunta) {
-        return Map.of("completion",this.chatClient.prompt().user(pregunta).call().content());		
+		log.info("INICIO EN OpenAIServiceImpl.getPromt().");
+
+		try {
+			return Map.of("completion", this.chatClient.prompt().user(pregunta).call().content());
+		} catch (Exception e) {
+			log.error("ERROR EN OpenAIServiceImpl.getPromt().");
+			throw e;
+		}
 	}
 
-	@Override
-	public String getPromtDocument(String mensaje) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

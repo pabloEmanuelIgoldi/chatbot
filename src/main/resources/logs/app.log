@@ -212,3 +212,37 @@ Caused by: java.lang.IllegalArgumentException: OpenAI API key must be set. Use t
 2025-04-06T21:46:16.525-03:00  INFO 8032 --- [chatbot] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 2025-04-06T21:46:16.528-03:00  INFO 8032 --- [chatbot] [RMI TCP Connection(9)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-04-06T21:46:16.532-03:00  INFO 8032 --- [chatbot] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-06T22:11:04.997-03:00  INFO 6340 --- [chatbot] [main] com.chatbot.ChatbotApplication           : Starting ChatbotApplication using Java 21.0.4 with PID 6340 (C:\Users\User\Documents\Desa\wsSpringBoot\chatbot\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\chatbot)
+2025-04-06T22:11:04.999-03:00  INFO 6340 --- [chatbot] [main] com.chatbot.ChatbotApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-06T22:11:07.201-03:00  INFO 6340 --- [chatbot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-06T22:11:07.248-03:00  INFO 6340 --- [chatbot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-06T22:11:07.249-03:00  INFO 6340 --- [chatbot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-06T22:11:07.379-03:00  INFO 6340 --- [chatbot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-06T22:11:07.380-03:00  INFO 6340 --- [chatbot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2037 ms
+2025-04-06T22:11:08.239-03:00  INFO 6340 --- [chatbot] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-06T22:11:08.775-03:00  INFO 6340 --- [chatbot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-06T22:11:08.789-03:00  INFO 6340 --- [chatbot] [main] com.chatbot.ChatbotApplication           : Started ChatbotApplication in 4.456 seconds (process running for 5.666)
+2025-04-06T22:11:08.792-03:00  INFO 6340 --- [chatbot] [main] com.chatbot.ChatbotApplication           : INICIO DE LA APLICACION CHATBOT EXITOSO.
+2025-04-06T22:11:11.495-03:00  INFO 6340 --- [chatbot] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-06T22:11:11.498-03:00  INFO 6340 --- [chatbot] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-06T22:11:11.503-03:00  INFO 6340 --- [chatbot] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-06T22:12:05.237-03:00  INFO 2864 --- [chatbot] [main] com.chatbot.ChatbotApplication           : Starting ChatbotApplication using Java 21.0.4 with PID 2864 (C:\Users\User\Documents\Desa\wsSpringBoot\chatbot\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\chatbot)
+2025-04-06T22:12:05.239-03:00  INFO 2864 --- [chatbot] [main] com.chatbot.ChatbotApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-06T22:12:06.718-03:00  INFO 2864 --- [chatbot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-06T22:12:06.736-03:00  INFO 2864 --- [chatbot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-06T22:12:06.736-03:00  INFO 2864 --- [chatbot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-06T22:12:06.808-03:00  INFO 2864 --- [chatbot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-06T22:12:06.808-03:00  INFO 2864 --- [chatbot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1272 ms
+2025-04-06T22:12:07.560-03:00  INFO 2864 --- [chatbot] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-06T22:12:08.168-03:00  INFO 2864 --- [chatbot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-06T22:12:08.182-03:00  INFO 2864 --- [chatbot] [main] com.chatbot.ChatbotApplication           : Started ChatbotApplication in 3.461 seconds (process running for 4.356)
+2025-04-06T22:12:08.187-03:00  INFO 2864 --- [chatbot] [main] com.chatbot.ChatbotApplication           : INICIO DE LA APLICACION CHATBOT EXITOSO.
+2025-04-06T22:12:15.036-03:00  INFO 2864 --- [chatbot] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06T22:12:15.037-03:00  INFO 2864 --- [chatbot] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-06T22:12:15.038-03:00  INFO 2864 --- [chatbot] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-06T22:12:15.726-03:00  INFO 2864 --- [chatbot] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 178 ms
+2025-04-06T22:12:32.664-03:00  INFO 2864 --- [chatbot] [http-nio-8080-exec-10] c.chatbot.controller.OpenAIController    : INICIO EN OpenAIController.generatePrompt().
+2025-04-06T22:12:32.664-03:00  INFO 2864 --- [chatbot] [http-nio-8080-exec-10] c.c.service.openai.OpenAIServiceImpl     : INICIO EN OpenAIServiceImpl.getPromt().
+2025-04-06T22:12:53.874-03:00  INFO 2864 --- [chatbot] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-06T22:12:53.877-03:00  INFO 2864 --- [chatbot] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-06T22:12:53.881-03:00  INFO 2864 --- [chatbot] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
